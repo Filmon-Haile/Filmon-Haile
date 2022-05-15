@@ -1,0 +1,128 @@
+html,body {
+	margin: 0;
+width: 100%; 
+color: rgb(0, 0, 0);
+background-color:#c4c4c4 ;
+
+}
+
+
+.search{
+    height: 20px;
+}
+.can {
+    height: 30px;
+}
+.doc {
+    height: 30px;
+}
+.star {
+    height: 30px;
+}
+.pfp{
+    margin: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    flex-direction: start;
+}
+.Compose {
+	box-shadow: -2px 4px 26px 7px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:24px;
+	border:3px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 29px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.Compose:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.Compose:active {
+	position:relative;
+	top:1px;
+}
+.InboxImg{
+    height: 30px;
+}
+
+
+
+.row{
+    background-color: #c4c4c4;
+   
+	width:1500px;
+	height:750px}
+
+.common {
+	padding: 15px;
+	border: 2px solid gray;
+	height: 750px;
+	width: 500px;
+	
+}
+
+
+.inbox {
+	padding: 3px;
+	border: 2px solid gray;
+ width: 485px;
+
+}
+.search-box-wrapper {
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.search-box-input {
+    font-size: inherit;
+    border: 5px solid gray;
+    outline: 0;
+}
+
+.search-box-input:hover,
+.search-box-input:focus {
+    border-color: gray;
+}
+
+.search-box-button {
+    font-size: inherit;
+    border: 5px solid gray;
+    border-radius: 0 12.5px 12.5px 0;
+    background-color: gray;
+    border-left: 0;
+    padding: 0 0.75em;
+    color: white;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+}
+
+.search-box-button:hover,
+.search-box-button:focus {
+    border-color: gray;
+    background-color: rgb(167, 189, 194);
+}
+.clip{
+	position: absolute;	
+	top: 41em;
+	left: 71em;
+	
+
+}
+.reply{
+	width: 400px;
+	height: 250px;
+}
+.emails{
+	border: 3px solid rgb(126, 123, 123);
+	box-shadow: 5px 5px 12px 8px rgb(91, 91, 91);
+}
